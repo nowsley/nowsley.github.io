@@ -227,6 +227,42 @@ main {
   margin-top: 8px;
   line-height: 1.65;
 }
+.paper-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 6px;
+}
+.paper-link {
+  font-size: 0.78rem;
+  color: var(--accent-hi);
+  text-decoration: none;
+  border: 1px solid var(--accent-hi);
+  padding: 1px 8px;
+  border-radius: 2px;
+  transition: background 0.15s, color 0.15s;
+  letter-spacing: 0.03em;
+}
+.paper-link:hover {
+  background: var(--accent-hi);
+  color: #fff;
+}
+.paper-link-text {
+  font-size: 0.8rem;
+  color: var(--ink-light);
+  font-style: italic;
+}
+.paper-footnote {
+  font-size: 0.8rem;
+  color: var(--ink-light);
+  margin-top: 6px;
+  font-style: italic;
+}
+.paper-status.ongoing {
+  background: #EEF0F8;
+  color: #3A4080;
+}
 
 /* ─── CV page ────────────────────────────────────────────── */
 .cv-embed-wrap {
